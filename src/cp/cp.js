@@ -1,5 +1,5 @@
 const spawnChildProcess = async (args) => {
-    // Write your code here
+  child_process.spawn({ cwd: "./src/cp/files/script.js" });
 };
 
 spawnChildProcess();
